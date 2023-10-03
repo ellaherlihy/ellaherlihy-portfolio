@@ -6,13 +6,14 @@
   padding: 0;
   margin: 0;
   font-family: 'Rubik', sans-serif;
-  color: white;
+  color: black;
+  background-color: white;
 }
 
 .about-me > h1 {
   font-size: 6rem;
   color: rgb(245, 0, 106);
-  padding: 20rem 10rem 0 10rem;
+  padding: 10rem 10rem 0 10rem;
   margin: 0;
   /* opacity: 0.6; */
 }
@@ -20,9 +21,10 @@
 .about-me > p {
   font-size: 2rem;
   margin: 0;
-  padding: 2rem 10rem 0 10rem;
+  padding: 2rem 20rem 0 10rem;
   opacity: 0.8;
   line-height: 3rem;
+  color: black;
 }
 
 .emphasis {
@@ -31,19 +33,48 @@
   opacity: 1;
 }
 
+.scallop-white {
+  position:relative;
+  background: white;
+  padding:50px;
+}
+
+.scallop-white::after {
+  position:absolute;
+  bottom: -50px;
+  left: 0px;
+  width: 100%;
+  content:" ";
+  background:
+  radial-gradient(circle at 50% 0%, white 25%, rgba(234 190 103)  26%, rgba(234 190 103)  40%);
+  background-color: rgba(234 190 103) ;
+  background-size:50px 100px;
+  height:50px;
+  background-repeat: repeat-x;
+
+  /* background-color: rgba(234 190 103); */
+
+}
+.after-scallop-white{
+  background: rgba(234 190 103) ;
+  padding:50px;
+  /* margin-bottom:50px; */
+}
+
 @media (min-width: 100px) and (max-width: 768px) {
   .about-me > h1 {
     font-size: 2rem;
-    padding: 8rem 1rem 0 1rem;
+    padding: 3rem 1rem 0 1rem;
     text-align: center;
   }
 
   .about-me > p {
     font-size: 1rem;
     padding: 3%;
-    line-height: 2rem;
-    padding: 1rem 5rem 10rem 5rem;
-    text-align: justify;
+    line-height: 1rem;
+    padding: 1rem 4rem 3rem 4rem;
+    text-align: center;
+    font-weight: 500;
   }
 }
 
@@ -52,7 +83,7 @@
 
   .about-me > h1 {
     font-size: 2rem;
-    padding: 8rem 1rem 0 1rem;
+    padding: 3rem 1rem 0 1rem;
     text-align: center;
   }
 

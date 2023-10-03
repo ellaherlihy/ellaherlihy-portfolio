@@ -3,6 +3,7 @@ import React from "react";
 export default function AboutMe() {
   return (
     <div className="about-me">
+      <div className="scallop" id="scallop"></div>
       <h1>Hello, I'm Ella 👋🏻</h1>
       <p>
         Originally from the world of TV & Film production, my dabbling in coding turned into a fully fledged obsession

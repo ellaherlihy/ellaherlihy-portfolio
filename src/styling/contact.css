@@ -1,9 +1,28 @@
 .contact {
   margin: 0;
   padding: 0;
+  background-color: white;
+  color: black;
+  font-family: 'Rubik', sans-serif;
   /* display: flex;
   flex-direction: column;
   justify-content: center; */
+}
+
+.contact--box > h1 {
+  padding: 3rem 0 0 0;
+  font-size: 3rem;
+  color: rgb(245, 0, 106);
+  margin: 0;
+}
+
+.contact--box > h2 {
+  padding: 3rem 0 0 0;
+  font-size: 2rem;
+  padding: 1rem 0 0 0;
+  font-weight: 400;
+  margin: 0;
+
 }
 
 .contact--box {
@@ -12,12 +31,62 @@
   justify-content: center;
 }
 
+.contact-icons {
+  display: flex;
+  justify-content: center;
+}
+
 .contact-icon {
   text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.contact-icon:hover {
+  color: rgb(245, 0, 106);
 }
 
 .contact--box > h1, h2 {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+@media (min-width: 100px) and (max-width: 375px) {
+
+  .contact--box > h1 {
+    font-size: 2rem;
+  }
+
+  .contact--box > h2 {
+    font-size: 1rem;
+    padding: 1rem 0 0 0;
+  }
+
+  .contact-icon {
+    font-size: 1rem;
+    padding: 1rem .5rem 2rem .5rem;
+
+  }
+
+}
+
+@media (min-width: 100px) and (max-width: 768px) {
+  .contact--box > h1 {
+    font-size: 2rem;
+  }
+
+  .contact--box > h2 {
+    font-size: 1rem;
+    padding: 1rem 0 0 0;
+  }
+
+  .contact-icon {
+    font-size: 1rem;
+    padding: 1rem .5rem 2rem .5rem;
+
+  }
 }

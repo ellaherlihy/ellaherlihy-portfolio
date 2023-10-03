@@ -51,6 +51,9 @@ function App() {
           description={AppData[1].description}
           github={AppData[1].github}
         />
+        <br></br>
+        <br></br>
+        <br></br>
         <Contact />
     </div>
 

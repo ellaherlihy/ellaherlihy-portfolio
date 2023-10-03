@@ -1,0 +1,23 @@
+.contact {
+  margin: 0;
+  padding: 0;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.contact--box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-icon {
+  text-align: center;
+}
+
+.contact--box > h1, h2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

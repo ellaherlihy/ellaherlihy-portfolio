@@ -1,0 +1,42 @@
+.landing-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.landing-page > h1, h2 {
+  margin: 0;
+}
+
+.landing-page > h1 {
+  font-size: 10rem;
+  padding: 3rem 10rem 0 10rem;
+  color: rgb(245, 0, 106);
+}
+
+.landing-page > h2 {
+  font-size: 6rem;
+  padding: 0rem 10rem 0 10rem;
+  opacity: 0.8;
+}
+
+@media (min-width: 100px) and (max-width: 768px) {
+
+  .landing-page {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .landing-page > h1 {
+    font-size: 4rem;
+    padding: 2rem 0 0 0;
+  }
+
+  .landing-page > h2 {
+    font-size: 3rem;
+    padding: 1rem 0 0 0;
+  }
+}

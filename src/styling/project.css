@@ -155,3 +155,26 @@
   }
 
 }
+
+
+/* smaller phones e.g. iPhone mini / SE */
+@media (min-width: 100px) and (max-width: 375px) {
+
+  .project--description {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .project--info {
+    padding: 1rem 4rem 0rem 4rem;
+    align-items: center;
+    line-height: 2rem;
+  }
+
+  .project--gif {
+    border-radius: 0.5rem;
+    width: 19rem;
+  }
+}

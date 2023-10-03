@@ -13,7 +13,7 @@
 
 .landing-page > h1 {
   font-size: 10rem;
-  padding: 3rem 10rem 0 10rem;
+  padding: 10rem 10rem 0 10rem;
   color: rgb(245, 0, 106);
 }
 
@@ -23,7 +23,7 @@
   opacity: 0.8;
 }
 
-@media (min-width: 100px) and (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 768px) {
 
   .landing-page {
     justify-content: center;
@@ -38,5 +38,24 @@
   .landing-page > h2 {
     font-size: 3rem;
     padding: 1rem 0 0 0;
+  }
+}
+
+/* smaller phones e.g. iPhone mini / SE */
+@media (min-width: 100px) and (max-width: 375px) {
+
+  .landing-page {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .landing-page > h1 {
+    font-size: 3rem;
+    padding: 3rem 2rem 0 2rem;
+  }
+
+  .landing-page > h2 {
+    font-size: 2rem;
+    padding: 1rem 2rem 0 2rem;
   }
 }

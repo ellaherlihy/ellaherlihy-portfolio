@@ -37,6 +37,7 @@ function App() {
             '.link',
           ]}
           />
+      <h1 className='section-header' id="project">Projects</h1>
       <Project
           url="https://lingo-buddy-personal-90a867b34a95.herokuapp.com/"
           gif={LingoBuddyGif}

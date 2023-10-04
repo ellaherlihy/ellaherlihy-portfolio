@@ -7,6 +7,8 @@
 @import './styling/about-me.css';
 @import './styling/project.css';
 @import './styling/contact.css';
+@import './styling/footer.css';
+
 
 .App {
   width: 100%;

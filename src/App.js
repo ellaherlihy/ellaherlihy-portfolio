@@ -8,6 +8,7 @@ import { AppData } from './AppData';
 import LingoBuddyGif from "./media/Lingo-buddy.gif";
 import VintageWheelsGif from "./media/Vintage-wheels.gif";
 import Contact from "./components/Contact";
+import Footer from './components/Footer';
 
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
         <br></br>
         <br></br>
         <Contact />
+        <Footer />
     </div>
 
   );

@@ -80,7 +80,7 @@
   opacity: 1;
 }
 
-@media (min-width: 100px) and (max-width: 768px) {
+@media (min-width: 100px) and (max-width: 900px) {
 
   .project {
     flex-direction: column-reverse;

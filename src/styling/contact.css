@@ -74,7 +74,7 @@
 
 }
 
-@media (min-width: 100px) and (max-width: 768px) {
+@media (min-width: 100px) and (max-width: 900px) {
   .contact--box > h1 {
     font-size: 2rem;
   }

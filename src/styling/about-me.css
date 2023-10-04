@@ -79,7 +79,7 @@
 }
 
 /* smaller phones e.g. iPhone mini / SE */
-@media (min-width: 100px) and (max-width: 375px) {
+@media (min-width: 100px) and (max-width: 900px) {
 
   .about-me > h1 {
     font-size: 2rem;

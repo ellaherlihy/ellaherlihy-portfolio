@@ -14,9 +14,17 @@
   margin: 0;
   font-family: 'Roboto', sans-serif;
   color: white;
+  scroll-behavior: smooth;
 }
 
-
+.line {
+  color: white;
+  box-shadow: none;
+  border: .1rem solid white;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
 
 
 

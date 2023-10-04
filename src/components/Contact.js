@@ -3,7 +3,7 @@ import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 export default function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="scallop"></div>
       <div className="contact--box">
         <h1>say hello!</h1>

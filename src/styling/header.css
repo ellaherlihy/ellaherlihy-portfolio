@@ -11,10 +11,14 @@
 .header > a, p {
   text-decoration: none;
   color: white;
-  padding: 1rem;
   margin: 0;
   font-size: 2rem;
 }
+
+.header > a {
+  padding: 1rem 2rem 0 0;
+}
+
 
 .linkedIn-icon {
   padding: 0 2rem 0 0;
@@ -26,6 +30,7 @@
 
 .header > a:hover {
   color: rgb(245, 0, 106);
+  text-decoration: underline;
 }
 
 @media (min-width: 100px) and (max-width: 768px) {

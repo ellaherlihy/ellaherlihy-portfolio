@@ -3,7 +3,7 @@ import { FiGithub } from "react-icons/fi";
 
 export default function Project(props) {
   return (
-    <div className="project">
+    <div className="project" id="project">
       <div className="project--display">
         <a href={props.url} target="_blank" rel="noreferrer"><img src={props.gif} alt="my-gif" className="project--gif"/></a>
         <div className="project--icons">

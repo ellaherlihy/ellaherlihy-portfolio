@@ -44,6 +44,9 @@ function App() {
           description={AppData[0].description}
           github={AppData[0].github}
         />
+        <br></br>
+        <br></br>
+        <hr class="line"></hr>
         <Project
           url="https://vintagewheelsapp-f9c23e1b54e2.herokuapp.com/"
           gif={VintageWheelsGif}

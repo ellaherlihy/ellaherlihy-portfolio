@@ -1,10 +1,12 @@
 import React from "react";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
+import Fade from 'react-reveal/Fade';
 
 export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="scallop"></div>
+      <Fade bottom>
       <div className="contact--box">
         <h1>say hello!</h1>
         <h2 onClick={() => window.location = 'mailto:ellaherlihy@icloud.com'} target="_blank">ellaherlihy@icloud.com</h2>
@@ -14,6 +16,7 @@ export default function Contact() {
           <a href="https://www.linkedin.com/in/ella-herlihy/" target="_blank" rel="noreferrer"><FiLinkedin className="contact-icon"/></a>
           </div>
       </div>
+      </Fade>
     </div>
   )
 }

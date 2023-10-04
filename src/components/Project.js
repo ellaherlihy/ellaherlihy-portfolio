@@ -1,5 +1,6 @@
 import React from "react";
 import { FiGithub } from "react-icons/fi";
+import Fade from 'react-reveal/Fade';
 
 export default function Project(props) {
   return (
@@ -15,10 +16,12 @@ export default function Project(props) {
           <a className="github-icon" href="https://github.com/ellaherlihy" target="_blank" rel="noreferrer"><FiGithub /></a>
         </div>
       </div>
-      <div className="project--info">
+      <Fade bottom>
+        <div className="project--info">
         <div className="project--title">{props.title}</div>
-        <div className="project--description">{props.description}</div>
-      </div>
+          <div className="project--description">{props.description}</div>
+        </div>
+      </Fade>
     </div>
   )
 }

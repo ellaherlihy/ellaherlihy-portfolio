@@ -36,6 +36,7 @@
 @media (min-width: 100px) and (max-width: 768px) {
   .section-header {
     padding: 4rem 0 0 0;
+    font-size: 3rem;
   }
 }
 
@@ -43,7 +44,7 @@
 @media (min-width: 100px) and (max-width: 375px) {
   .section-header {
     padding: 4rem 0 0 0;
-
+    font-size: 3rem;
   }
 
 }

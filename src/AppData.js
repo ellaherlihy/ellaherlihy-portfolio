@@ -7,7 +7,7 @@ export const AppData = [
   },
   {
     app: "Vintage Wheels",
-    description: `Vintage Wheels is a web app built we built 4 days as part of the Le Wagon bootcamp. The user is able to sign up and search for vintage cars to hire - view their location, rate, cost, and send a booking request.`,
+    description: `Vintage Wheels is a web app built for users to find and hire vintage cars. The user is able to sign up and search for available cars - they can view the location, rate, cost, and send a booking request.`,
     stack: [],
     github: "https://github.com/ellaherlihy/vintage-wheels-app"
   }

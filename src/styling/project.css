@@ -80,6 +80,15 @@
   opacity: 1;
 }
 
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 100px) and (max-width: 900px) {
 
   .project {

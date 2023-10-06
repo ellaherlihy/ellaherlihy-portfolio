@@ -19,9 +19,9 @@ function App() {
       <LandingPage />
       <AboutMe />
       <AnimatedCursor
-            innerSize={20}
+            innerSize={10}
             outerSize={20}
-            color='241, 81, 86'
+            color='26, 200, 237'
             outerAlpha={0.2}
             innerScale={0.7}
             outerScale={5}

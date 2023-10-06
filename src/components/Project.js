@@ -13,6 +13,7 @@ export default function Project(props) {
           <span className="tech-icon">CSS</span>
           <span className="tech-icon">Javascript</span>
           <span className="tech-icon">Bootstrap</span>
+          <a  className="link-icon" href={props.url} target="_blank" rel="noreferrer"><span>🔗</span></a>
           <a className="github-icon" href="https://github.com/ellaherlihy" target="_blank" rel="noreferrer"><FiGithub /></a>
         </div>
       </div>

@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="scallop"></div>
       <div className="contact--box">
         <h1>say hello!</h1>
-        <h2 onClick={() => window.location = 'mailto:ellaherlihy@icloud.com'} target="_blank">ellaherlihy@icloud.com</h2>
+        <h2 className="contact--email" onClick={() => window.location = 'mailto:ellaherlihy@icloud.com'} target="_blank">ellaherlihy@icloud.com</h2>
         <h1>follow me</h1>
         <div className="contact-icons">
           <a href="https://github.com/ellaherlihy" target="_blank" rel="noreferrer"><FiGithub className="contact-icon"/></a>

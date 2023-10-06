@@ -37,6 +37,7 @@ function App() {
             'textarea',
             'button',
             '.link',
+            '.contact--email',
           ]}
           />
       <h1 className='section-header' id="project">Projects</h1>

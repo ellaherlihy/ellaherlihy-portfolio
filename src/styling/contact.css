@@ -55,6 +55,10 @@
   text-align: center;
 }
 
+.contact--email:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 100px) and (max-width: 375px) {
 
   .contact--box > h1 {

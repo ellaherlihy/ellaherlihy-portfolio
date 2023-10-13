@@ -7,6 +7,7 @@ import Project from "./components/Project";
 import { AppData } from './AppData';
 import LingoBuddyGif from "./media/Lingo-buddy.gif";
 import VintageWheelsGif from "./media/Vintage-wheels.gif";
+import FoxWren from "./media/LeahHerlihy.png"
 import Contact from "./components/Contact";
 import Footer from './components/Footer';
 
@@ -42,11 +43,12 @@ function App() {
           />
       <h1 className='section-header' id="project">Projects</h1>
       <Project
-          url="https://lingo-buddy-personal-90a867b34a95.herokuapp.com/"
-          gif={LingoBuddyGif}
-          title="Lingo Buddy"
-          description={AppData[0].description}
-          github={AppData[0].github}
+          url="https://prismatic-quokka-1dd0b7.netlify.app/"
+          gif={FoxWren}
+          title="Fox Wren Events"
+          description={AppData[2].description}
+          github={AppData[2].github}
+          stack={AppData[2].stack}
         />
         <br></br>
         <br></br>
@@ -57,8 +59,19 @@ function App() {
           title="Vintage Wheels"
           description={AppData[1].description}
           github={AppData[1].github}
+          stack={AppData[1].stack}
         />
         <br></br>
+        <br></br>
+        <hr class="line"></hr>
+        <Project
+          url="https://lingo-buddy-personal-90a867b34a95.herokuapp.com/"
+          gif={LingoBuddyGif}
+          title="Lingo Buddy"
+          description={AppData[0].description}
+          github={AppData[0].github}
+          stack={AppData[0].stack}
+        />
         <br></br>
         <br></br>
         <Contact />

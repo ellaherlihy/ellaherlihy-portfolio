@@ -12,7 +12,7 @@ export const AppData = [
     github: "https://github.com/ellaherlihy/vintage-wheels-app"
   },
   {
-    app: "Fox Wren Events",
+    app: "Fox & Wren Events",
     description: `A simple and sleek website, built using React.js, to showcase the work for events company Fox & Wren.`,
     stack: ["React.js", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/ellaherlihy/fox-wren"

@@ -45,7 +45,7 @@ function App() {
       <Project
           url="https://prismatic-quokka-1dd0b7.netlify.app/"
           gif={FoxWren}
-          title="Fox Wren Events"
+          title="Fox & Wren Events"
           description={AppData[2].description}
           github={AppData[2].github}
           stack={AppData[2].stack}

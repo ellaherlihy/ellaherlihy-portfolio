@@ -24,6 +24,6 @@ export const AppData = [
     stack: ["React.js", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/ellaherlihy/fox-wren",
     gif: "LeahHerlihy.png",
-    url: "https://vintagewheelsapp-f9c23e1b54e2.herokuapp.com/"
+    url: "https://prismatic-quokka-1dd0b7.netlify.app/"
   }
 ]

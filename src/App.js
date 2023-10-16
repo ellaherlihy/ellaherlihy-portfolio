@@ -43,34 +43,34 @@ function App() {
           />
       <h1 className='section-header' id="project">Projects</h1>
       <Project
-          url="https://prismatic-quokka-1dd0b7.netlify.app/"
+          url={AppData[0].gif}
+          gif={LingoBuddyGif}
+          title={AppData[0].title}
+          description={AppData[0].description}
+          github={AppData[0].github}
+          stack={AppData[0].stack}
+        />
+        <br></br>
+        <br></br>
+        {/* <hr class="line"></hr> */}
+        <Project
+          url={AppData[2].url}
           gif={FoxWren}
-          title="Fox & Wren Events"
+          title={AppData[2].title}
           description={AppData[2].description}
           github={AppData[2].github}
           stack={AppData[2].stack}
         />
         <br></br>
         <br></br>
-        <hr class="line"></hr>
+        {/* <hr class="line"></hr> */}
         <Project
-          url="https://vintagewheelsapp-f9c23e1b54e2.herokuapp.com/"
+          url={AppData[1].url}
           gif={VintageWheelsGif}
-          title="Vintage Wheels"
+          title={AppData[1].title}
           description={AppData[1].description}
           github={AppData[1].github}
           stack={AppData[1].stack}
-        />
-        <br></br>
-        <br></br>
-        <hr class="line"></hr>
-        <Project
-          url="https://lingo-buddy-personal-90a867b34a95.herokuapp.com/"
-          gif={LingoBuddyGif}
-          title="Lingo Buddy"
-          description={AppData[0].description}
-          github={AppData[0].github}
-          stack={AppData[0].stack}
         />
         <br></br>
         <br></br>

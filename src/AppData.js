@@ -6,7 +6,7 @@ export const AppData = [
     stack: ["Ruby on Rails", "HTML", "CSS", "JavaScript", "Bootstrap"],
     github: "https://github.com/ellaherlihy/lingo-buddy-personal",
     gif: "Lingo-buddy.gif",
-    url: "https://prismatic-quokka-1dd0b7.netlify.app/"
+    url: "https://lingo-buddy-personal-90a867b34a95.herokuapp.com/"
   },
   {
     index: 2,
@@ -24,6 +24,6 @@ export const AppData = [
     stack: ["React.js", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/ellaherlihy/fox-wren",
     gif: "LeahHerlihy.png",
-    url: "https://lingo-buddy-personal-90a867b34a95.herokuapp.com/"
+    url: "https://vintagewheelsapp-f9c23e1b54e2.herokuapp.com/"
   }
 ]

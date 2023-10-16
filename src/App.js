@@ -43,7 +43,7 @@ function App() {
           />
       <h1 className='section-header' id="project">Projects</h1>
       <Project
-          url={AppData[0].gif}
+          url={AppData[0].url}
           gif={LingoBuddyGif}
           title={AppData[0].title}
           description={AppData[0].description}

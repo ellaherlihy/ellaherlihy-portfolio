@@ -1,11 +1,8 @@
 import React from "react";
-import { DiJavascript1, DiCss3, DiRubyRough } from "react-icons/di";
-import { SiRubyonrails } from "react-icons/si";
-import { AiFillHtml5 } from "react-icons/ai";
-import { BiLogoReact } from "react-icons/bi";
-
-
-
+// import { DiJavascript1, DiCss3, DiRubyRough } from "react-icons/di";
+// import { SiRubyonrails } from "react-icons/si";
+// import { AiFillHtml5 } from "react-icons/ai";
+// import { BiLogoReact } from "react-icons/bi";
 
 export default function AboutMe() {
   return (

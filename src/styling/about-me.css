@@ -27,6 +27,30 @@
   color: black;
 }
 
+.about-me--contact p {
+  font-size: 2rem;
+  margin: 0;
+  padding: 2rem 20rem 5rem 10rem;
+  opacity: 0.8;
+  line-height: 3rem;
+  color: black;
+  text-align: left;
+  padding: 0;
+}
+
+.about-me--tech-stack {
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: center;
+  color: rgb(245, 0, 106);
+  font-size: 4rem;
+  margin: 0 1rem 3rem 0;
+}
+.about-me--tech-stack .icon {
+  margin: 0 1rem 3rem 1rem;
+}
+
 .emphasis {
   color: rgb(245, 0, 106);
   text-decoration: underline;

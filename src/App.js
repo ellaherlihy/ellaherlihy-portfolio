@@ -9,6 +9,7 @@ import LingoBuddyGif from "./media/Lingo-buddy.gif";
 import VintageWheelsGif from "./media/Vintage-wheels.gif";
 import FoxWren from "./media/LeahHerlihy.png"
 import Ryalto from "./media/Ryalto.png"
+import ShoudIRun from "./media/should-i-run.png"
 import Contact from "./components/Contact";
 import Footer from './components/Footer';
 
@@ -80,6 +81,16 @@ function App() {
           description={AppData[1].description}
           github={AppData[1].github}
           stack={AppData[1].stack}
+        />
+        <br></br>
+        <br></br>
+        <Project
+          url={AppData[4].url}
+          gif={ShoudIRun}
+          title={AppData[4].title}
+          description={AppData[4].description}
+          github={AppData[4].github}
+          stack={AppData[4].stack}
         />
         <br></br>
         <br></br>

@@ -8,6 +8,7 @@ import { AppData } from './AppData';
 import LingoBuddyGif from "./media/Lingo-buddy.gif";
 import VintageWheelsGif from "./media/Vintage-wheels.gif";
 import FoxWren from "./media/LeahHerlihy.png"
+import Ryalto from "./media/Ryalto.png"
 import Contact from "./components/Contact";
 import Footer from './components/Footer';
 
@@ -52,7 +53,6 @@ function App() {
         />
         <br></br>
         <br></br>
-        {/* <hr class="line"></hr> */}
         <Project
           url={AppData[2].url}
           gif={FoxWren}
@@ -63,7 +63,16 @@ function App() {
         />
         <br></br>
         <br></br>
-        {/* <hr class="line"></hr> */}
+        <Project
+          url={AppData[3].url}
+          gif={Ryalto}
+          title={AppData[3].title}
+          description={AppData[3].description}
+          github={AppData[3].github}
+          stack={AppData[3].stack}
+        />
+        <br></br>
+        <br></br>
         <Project
           url={AppData[1].url}
           gif={VintageWheelsGif}

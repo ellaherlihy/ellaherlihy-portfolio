@@ -25,5 +25,16 @@ export const AppData = [
     github: "https://github.com/ellaherlihy/fox-wren",
     gif: "LeahHerlihy.png",
     url: "https://prismatic-quokka-1dd0b7.netlify.app/"
+  },
+  {
+    index: 4,
+    title: "Ryalto",
+    description: `This page was a simple static page built in a few hours as part of a tech challenge. The challenge was to take an existing page which was quite badly designed, design it first in Figma and then build in CSS and semantic HTML.
+    I really enjoyed this challenge, and stripping back to HTML and CSS basics to just focus on making a site look good and be responsive. It was also a great opprotunity to practice designing a site in Figma before starting to code it - which in the
+    long run always saves so much time!`,
+    stack: ["HTML", "CSS", "Figma"],
+    github: "https://github.com/ellaherlihy/ryalto",
+    gif: "Ryalto.png",
+    url: "https://incomparable-tiramisu-c8a89c.netlify.app/"
   }
 ]

@@ -20,7 +20,7 @@ export const AppData = [
   {
     index: 3,
     title: "Fox Wren Events",
-    description: `A website built using React.js, to showcase the work for events company Fox Wren. The webiste was built with mobile first in mind as that was the presumed format that most users would enter it from.`,
+    description: `A website built using React.js, to showcase the work for events company Fox Wren. The website was built with mobile first in mind as that was the presumed format that most users would enter it from.`,
     stack: ["React.js", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/ellaherlihy/fox-wren",
     gif: "LeahHerlihy.png",

@@ -11,7 +11,7 @@ export default function AboutMe() {
       <h1>Hello, I'm Ella 👋🏻</h1>
       <p>
         A Brighton based web developer, I made the jump into tech from the world of TV & film production and haven't looked back since.
-         I mainly use <strong class="emphasis">Ruby on Rails, Javascript ES6, CSS, HTML</strong> and <strong class="emphasis">React.js</strong>
+         I mainly use <strong class="emphasis">Ruby on Rails, Javascript ES6, CSS, HTML</strong> and <strong class="emphasis">React.js</strong>.
          <br></br>
          <br></br>
         Below are some of my recent projects - if you would like to collaborate on a project together, I would love to hear from you.

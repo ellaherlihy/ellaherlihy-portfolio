@@ -4,12 +4,13 @@ import Header from "./components/Header";
 import LandingPage from "./components/LandingPage";
 import AnimatedCursor from "react-animated-cursor";
 import Project from "./components/Project";
-import { AppData } from './AppData';
+import {AppData} from './AppData';
 import LingoBuddyGif from "./media/Lingo-buddy.gif";
 import VintageWheelsGif from "./media/Vintage-wheels.gif";
 import FoxWren from "./media/LeahHerlihy.png"
 import Ryalto from "./media/Ryalto.png"
 import ShoudIRun from "./media/should-i-run.png"
+import Ecommerce from "./media/e-commerce.gif"
 import Contact from "./components/Contact";
 import Footer from './components/Footer';
 
@@ -91,6 +92,16 @@ function App() {
           description={AppData[4].description}
           github={AppData[4].github}
           stack={AppData[4].stack}
+        />
+        <br></br>
+        <br></br>
+        <Project
+          url={AppData[5].url}
+          gif={Ecommerce}
+          title={AppData[5].title}
+          description={AppData[5].description}
+          github={AppData[5].github}
+          stack={AppData[5].stack}
         />
         <br></br>
         <br></br>

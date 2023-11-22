@@ -29,7 +29,7 @@ export const AppData = [
   {
     index: 4,
     title: "Ryalto",
-    description: `This page is a static page built in a few hours as part of a tech challenge. The challenge was to take an existing badly designed page, re-design it first in Figma and then build in CSS and semantic HTML.
+    description: `A static page built in a few hours as part of a tech challenge. The challenge was to take an existing badly designed page, re-design it first in Figma and then build in vanilla CSS and semantic HTML.
     I really enjoyed this challenge, and stripping back to HTML and CSS basics to just focus on making a site look good and be responsive. It was also a great opportunity to practice designing a site in Figma before starting to code it - which in the
     long run always saves so much time!`,
     stack: ["HTML", "CSS", "Figma"],
@@ -48,5 +48,17 @@ export const AppData = [
     github: "https://github.com/ellaherlihy/should-i-run",
     gif: "should-i-run.png",
     url: "https://stellar-douhua-4f73ff.netlify.app/"
+  },
+  {
+    index: 6,
+    title: "E-Commerce Store",
+    description: `A front end demo for an online e-commerce store, built using the Algolia API and InstantSearch.js framework. The user
+    is able to search through the 1,000 items indexed and the results returned have been refined via the Algolia API to ensure the
+    best search experience possible. Any user typos are corrected in search results, and weighting is given to
+    listings in which the key word from the user appears more than once.`,
+    stack: ["JavaScript", "HTML", "CSS", "Algolia API"],
+    github: "https://github.com/ellaherlihy/spencer-and-williams",
+    gif: "e-commerce.gif",
+    url: "https://ellaherlihy.github.io/spencer-and-williams/"
   }
 ]

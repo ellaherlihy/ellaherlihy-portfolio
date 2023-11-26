@@ -39,3 +39,21 @@
   font-size: 3rem;
   margin: 0 1rem 0 1rem;
 }
+
+@media (min-width: 100px) and (max-width: 900px) {
+  .image-container img {
+    width: 20rem;
+    height: auto;
+    margin: 1rem;
+  }
+
+  .image-container {
+    margin: 1rem;
+  }
+
+  a {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+  }
+}

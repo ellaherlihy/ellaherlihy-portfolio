@@ -6,7 +6,9 @@ export const AppData = [
     stack: ["Ruby on Rails", "HTML", "CSS", "JavaScript", "Bootstrap"],
     github: "https://github.com/ellaherlihy/lingo-buddy-personal",
     gif: "Lingo-buddy.gif",
-    url: "https://lingo-buddy-personal-90a867b34a95.herokuapp.com/"
+    img: "Lingo-buddy.png",
+    url: "https://lingo-buddy-personal-90a867b34a95.herokuapp.com/",
+    page: "/lingo-buddy"
   },
   {
     index: 2,
@@ -15,7 +17,9 @@ export const AppData = [
     stack: ["Ruby on Rails", "HTML", "CSS", "JavaScript", "Bootstrap"],
     github: "https://github.com/ellaherlihy/vintage-wheels-app",
     gif: "Vintage-wheels.gif",
-    url: "https://vintagewheelsapp-f9c23e1b54e2.herokuapp.com/"
+    img: "vintage-wheels.png",
+    url: "https://vintagewheelsapp-f9c23e1b54e2.herokuapp.com/",
+    page: "/vintage-wheels"
   },
   {
     index: 3,
@@ -24,7 +28,8 @@ export const AppData = [
     stack: ["React.js", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/ellaherlihy/fox-wren",
     gif: "LeahHerlihy.png",
-    url: "https://prismatic-quokka-1dd0b7.netlify.app/"
+    url: "https://prismatic-quokka-1dd0b7.netlify.app/",
+    page: "/fox-wren"
   },
   {
     index: 4,
@@ -35,7 +40,8 @@ export const AppData = [
     stack: ["HTML", "CSS", "Figma"],
     github: "https://github.com/ellaherlihy/ryalto",
     gif: "Ryalto.png",
-    url: "https://incomparable-tiramisu-c8a89c.netlify.app/"
+    url: "https://incomparable-tiramisu-c8a89c.netlify.app/",
+    page: "/ryalto"
   },
   {
     index: 5,
@@ -47,7 +53,8 @@ export const AppData = [
     stack: ["React.js", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/ellaherlihy/should-i-run",
     gif: "should-i-run.png",
-    url: "https://stellar-douhua-4f73ff.netlify.app/"
+    url: "https://stellar-douhua-4f73ff.netlify.app/",
+    page: "/should-i-run"
   },
   {
     index: 6,
@@ -59,6 +66,8 @@ export const AppData = [
     stack: ["JavaScript", "HTML", "CSS", "Algolia API"],
     github: "https://github.com/ellaherlihy/spencer-and-williams",
     gif: "e-commerce.gif",
-    url: "https://ellaherlihy.github.io/spencer-and-williams/"
+    img: "ecommerce.png",
+    url: "https://ellaherlihy.github.io/spencer-and-williams/",
+    page: "/e-commerce-store"
   }
 ]

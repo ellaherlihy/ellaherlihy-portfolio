@@ -12,14 +12,3 @@ export default function ProjectThumbnail(props) {
     </div>
   )
 }
-
-
-{/* <div class="image-container">
-  <img src="path_to_your_image.jpg" alt="Your Image" class="overlay-image">
-  <div class="overlay">
-    <div class="overlay-text">
-      <h2>Overlay Text</h2>
-      <p>This is the text overlaying the image.</p>
-    </div>
-  </div>
-</div> */}

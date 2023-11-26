@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import AboutMe from '../components/AboutMe';
 import Header from "../components/Header";
 import LandingPage from "../components/LandingPage";
-import AnimatedCursor from "react-animated-cursor";
 // import Project from "../components/Project";
 import ProjectThumbnail from '../components/ProjectThumbnail';
 import {AppData} from '../AppData';
@@ -22,28 +21,6 @@ function Home() {
       <Header />
       <LandingPage />
       <AboutMe />
-      <AnimatedCursor
-        innerSize={10}
-        outerSize={20}
-        color='26, 200, 237'
-        outerAlpha={0.2}
-        innerScale={0.7}
-        outerScale={5}
-        clickables={[
-          'a',
-          'input[type="text"]',
-          'input[type="email"]',
-          'input[type="number"]',
-          'input[type="submit"]',
-          'input[type="image"]',
-          'label[for]',
-          'select',
-          'textarea',
-          'button',
-          '.link',
-          '.contact--email',
-        ]}
-      />
       <h1 className='section-header' id="project">Projects</h1>
       <div className='thumbnails'>
         <Link to={AppData[0].page}>

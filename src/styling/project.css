@@ -105,6 +105,31 @@ a:hover {
   text-decoration: underline;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 3rem;
+  font-size: 1rem;
+  border: none;
+  background-color: rgb(245, 0, 106);
+  border-radius: 20px; /* Adjust the radius for the scalloped effect */
+  position: relative;
+  overflow: hidden;
+}
+
+.project-button p {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
 @media (min-width: 100px) and (max-width: 900px) {
 
   .project {
